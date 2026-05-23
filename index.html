@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="bn">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Air71 Travels - Trusted Travel Partner</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind+Siliguri:wght@400;500;600;700;800&family=Inter:wght@500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            bangla: ["Hind Siliguri", "sans-serif"],
+                            inter: ["Inter", "sans-serif"],
+                            script: ["Great Vibes", "cursive"],
+                        },
+                        colors: {
+                            air: {
+                                50: "#eff7ff",
+                                100: "#dff0ff",
+                                500: "#1267ed",
+                                600: "#0d55d9",
+                                700: "#0b3faa",
+                                800: "#082875",
+                                900: "#061a50",
+                            },
+                        },
+                        boxShadow: {
+                            card: "0 8px 22px rgba(8, 38, 99, .08)",
+                            blue: "0 14px 30px rgba(8, 61, 167, .24)",
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body class="font-bangla text-air-900 bg-white">
+        <header>
+            <div
+                class="hidden md:block bg-slate-100 text-air-900 text-sm font-inter"
+            >
+                <div
+                    class="mx-auto flex min-h-10 max-w-7xl items-center justify-between gap-5 px-8"
+                >
+                    <span>Trusted Travel Partner</span>
+                    <a href="mailto:air71travels@gmail.com"
+                        >air71travels@gmail.com</a
+                    >
+                    <span>Sat - Thu: 9:00 AM - 9:00 PM</span>
+                    <div class="flex items-center gap-4 text-base">
+                        <a href="#" aria-label="Facebook"
+                            ><i class="fa fa-facebook" aria-hidden="true"></i
+                        ></a>
+                        <a href="#" aria-label="Instagram"
+                            ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                        <a href="#" aria-label="YouTube"
+                            ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                        ></a>
+                        <a href="#" aria-label="TikTok"
+                            ><i class="fa fa-music" aria-hidden="true"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="bg-white shadow-sm md:border-b md:border-slate-200">
+                <div
+                    class="mx-auto flex min-h-[88px] max-w-7xl items-center justify-between gap-3 px-5 md:min-h-[120px] md:px-8"
+                >
+                    <a
+                        href="#"
+                        aria-label="Air71 Travels"
+                        class="block shrink-0"
+                    >
+                        <img
+                            src="assets/air 71 logo png.png"
+                            alt="Air71 Travels logo"
+                            class="h-auto w-[142px] object-contain md:w-[188px]"
+                        />
+                    </a>
+
+                    <div
+                        class="hidden items-center gap-9 font-inter text-[15px] font-extrabold text-air-900 lg:flex"
+                    >
+                        <a
+                            class="border-b-4 border-air-600 py-3 text-air-700"
+                            href="#"
+                            >Home</a
+                        >
+                        <a class="py-3 hover:text-air-600" href="#services"
+                            >Services</a
+                        >
+                        <a class="py-3 hover:text-air-600" href="#visa"
+                            >Visa Processing</a
+                        >
+                        <a class="py-3 hover:text-air-600" href="#about"
+                            >About Us</a
+                        >
+                        <a class="py-3 hover:text-air-600" href="#contact"
+                            >Contact Us</a
+                        >
+                    </div>
+
+                    <a
+                        href="tel:01855588836"
+                        class="hidden min-h-[54px] items-center gap-3 rounded-md bg-gradient-to-br from-air-700 to-air-900 px-6 font-inter text-xl font-black text-white shadow-blue lg:flex"
+                    >
+                        <img
+                            class="h-[25px]"
+                            src="assets/whatsapp-icon.png"
+                            alt=""
+                            srcset=""
+                        />
+                        +8801855588836
+                    </a>
+
+                    <div class="flex items-center gap-3 lg:hidden">
+                        <a
+                            href="tel:01855588836"
+                            aria-label="Call Air71 Travels"
+                            class="grid place-items-center"
+                            ><img
+                                class="h-11 w-11"
+                                src="assets/whatsapp-icon.png"
+                                alt=""
+                                srcset=""
+                        /></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section
+                class="relative overflow-hidden border-y border-slate-100 bg-[url('assets/sky.jpg')] bg-cover bg-center"
+            >
+                <div
+                    class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/70 to-white/5"
+                ></div>
+                <div
+                    class="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/80"
+                ></div>
+                <img
+                    class="pointer-events-none absolute bottom-0 right-0 z-[1] hidden w-[620px] max-w-none object-contain object-bottom md:block md:w-[820px] lg:w-[940px]"
+                    src="assets/hero image.png"
+                    alt="World travel landmarks"
+                />
+                <div
+                    class="relative z-10 mx-auto grid max-w-7xl grid-cols-1 px-5 md:min-h-[500px] md:grid-cols-[.9fr_1.1fr] md:items-center md:px-8"
+                >
+                    <div class="relative z-10 pt-6 md:py-12">
+                        <p
+                            class="font-inter text-[28px] font-black leading-none text-air-900 md:text-5xl"
+                        >
+                            Your Trusted
+                        </p>
+                        <h1
+                            class="whitespace-nowrap font-script text-[44px] font-normal leading-none text-air-600 sm:text-[58px] md:text-[96px]"
+                        >
+                            Travel Partner
+                        </h1>
+                        <p
+                            class="mt-2 text-[21px] font-bold leading-tight text-air-600 md:text-3xl"
+                        >
+                            বিশ্বস্ত সেবা, নিরাপদ ভ্রমণ
+                        </p>
+                        <p
+                            class="mt-5 max-w-[315px] text-[15px] font-medium leading-7 text-slate-800 md:max-w-lg md:text-xl md:leading-9"
+                        >
+                            এয়ার ৭১ ট্রাভেলস দিচ্ছে এয়ার টিকেট থেকে শুরু করে
+                            ভিসা প্রসেসিং, ট্যুর প্ল্যান, হোটেল বুকিং সহ সব
+                            ধরনের ট্রাভেল সার্ভিস।
+                        </p>
+                    </div>
+
+                    <div class="relative -mt-2 h-[315px] overflow-visible md:mt-0 md:h-[500px]">
+                        <img
+                            class="absolute bottom-0 right-[-136px] z-10 w-[620px] max-w-none object-contain object-bottom md:hidden"
+                            src="assets/hero image.png"
+                            alt="World travel landmarks"
+                        />
+                        <img
+                            class="absolute right-[-8px] top-2 z-20 w-[310px] max-w-none object-contain drop-shadow-2xl md:right-[80px] md:top-2 md:w-[500px] lg:right-[135px] lg:w-[590px]"
+                            src="assets/air71 plain.png"
+                            alt="Air71 airplane"
+                        />
+                    </div>
+
+                    <div
+                        class="mt-5 grid grid-cols-[1.12fr_1fr_.9fr] gap-2 pb-7 md:col-span-2 md:mt-0 md:flex md:gap-5 md:pb-10"
+                    >
+                        <a
+                            class="flex min-h-[42px] items-center justify-center gap-1.5 rounded-md bg-gradient-to-br from-green-500 to-green-700 px-2 font-inter text-xs font-extrabold text-white shadow-card md:min-h-[52px] md:px-6 md:text-base"
+                            href="https://wa.me/8801855588836"
+                            >WhatsApp
+                            <img
+                                src="assets/whatsapp-icon.png"
+                                alt=""
+                                class="h-4 w-4 md:h-5 md:w-5"
+                        /></a>
+                        <a
+                            class="flex min-h-[42px] items-center justify-center gap-1.5 rounded-md bg-gradient-to-br from-air-700 to-air-900 px-2 font-inter text-xs font-extrabold text-white shadow-card md:min-h-[52px] md:px-6 md:text-base"
+                            href="#services"
+                            >Our Services <span></span
+                        ></a>
+                        <a
+                            class="flex min-h-[42px] items-center justify-center gap-1.5 rounded-md border border-air-700 bg-white px-2 font-inter text-xs font-extrabold text-air-900 shadow-card md:min-h-[52px] md:px-6 md:text-base"
+                            href="tel:01855588836"
+                            >Call Now</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="py-4 md:py-9">
+                <div class="mb-4 text-center md:mb-7">
+                    <span
+                        class="font-inter text-[10px] font-black text-air-700 md:text-sm"
+                        >OUR SERVICES</span
+                    >
+                    <h2
+                        class="text-[27px] font-extrabold leading-tight text-air-900 md:text-5xl"
+                    >
+                        আমাদের সেবাসমূহ
+                    </h2>
+                    <div
+                        class="mx-auto mt-1 w-20 border-t-2 border-blue-200 text-center text-air-600"
+                    >
+                        ✈
+                    </div>
+                </div>
+
+                <div
+                    class="mx-auto grid max-w-7xl grid-cols-3 gap-2.5 px-5 md:grid-cols-4 md:gap-4 md:px-8 xl:grid-cols-6"
+                >
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/air ticket.png" alt="Air ticketing"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            এয়ার টিকেটিং
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            দেশ ও বিদেশের সকল এয়ার টিকেট বুকিং।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/saudi visa.png" alt="Saudi visa processing"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            সৌদি ওয়ার্ক ভিসা প্রসেসিং
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            দ্রুত ও নির্ভরযোগ্য সৌদি ওয়ার্ক ভিসা সার্ভিস।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/indian visa (2).png" alt="Indian visa processing"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ইন্ডিয়ান ভিসা প্রসেসিং
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            ট্যুরিস্ট / মেডিকেল / বিজনেস ভিসা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/takamul.png" alt="Takamul registration"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            সৌদি তাকামুল রেজিস্ট্রেশন
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            তাকামুল রেজিস্ট্রেশন সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/GAMCA-LOGO-01.png" alt="GAMCA medical slip"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            গামকা মেডিকেল স্লিপ
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            গামকা মেডিকেল স্লিপ ইস্যু করা হয়।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/hajj umrah.jpg" alt="Saudi ziarat and family visit"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            সৌদি জিয়ারত / ফ্যামিলি ভিজিট ফাইল
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            জিয়ারত / ফ্যামিলি ফাইল প্রসেসিং।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/qatar manpower.jpg" alt="Qatar manpower service"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            কাতার ম্যানপাওয়ার
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            কাতার ম্যানপাওয়ার সার্ভিস।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/translate icon.png" alt="Translation and notary"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            অনুবাদ / নোটারী
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            যেকোন ভাষায় অনুবাদ ও নোটারী সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/hotel icon.png" alt="Hotel booking"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            হোটেল বুকিং
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            দেশ-বিদেশে হোটেল বুকিং সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/heath insurence.png" alt="Travel insurance"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ট্রাভেল ইন্সুরেন্স
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            নিরাপদ ভ্রমণের জন্য ট্রাভেল ইন্সুরেন্স।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/aposille icon.png" alt="Apostille document attestation"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            Apostille / ই-ডকুমেন্ট এটেস্টেশন
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            ডকুমেন্ট এটেস্টেশন।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/evaluation.jpg" alt="Property e-mutation"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            সম্পত্তির ই-মিউটেশন
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            ই-মিউটেশন সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/gdonline.jpg" alt="Online GD"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            অনলাইন জিডি
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            সহজে অনলাইন জিডি করুন।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/police clearance.jpg" alt="Police clearance"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            পুলিশ ক্লিয়ারেন্স
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            পুলিশ ক্লিয়ারেন্স সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/passport.jpg" alt="E-passport"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ই-পাসপোর্ট
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            ই-পাসপোর্ট আবেদনের সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/epayment copy.jpg" alt="E-payment"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ই-পেমেন্ট
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            সরকারি ই-পেমেন্ট সেবা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/tourpackage.jpg" alt="Tour plan"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ট্যুর প্ল্যান
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            আপনার ভ্রমণ সহজ আমরা সাথে।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
+                    >
+                        <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/evisa.jpg" alt="E-visa processing"></div>
+                        <h3
+                            class="mt-2 min-h-9 text-sm font-extrabold leading-tight md:text-xl"
+                        >
+                            ই-ভিসা প্রসেসিং
+                        </h3>
+                        <p
+                            class="text-[11px] leading-snug text-slate-700 md:text-sm"
+                        >
+                            সহজে ও দ্রুত ই-ভিসা সেবা।
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section
+                class="bg-gradient-to-r from-air-900 via-air-800 to-air-600 py-4 md:py-0"
+            >
+                <div
+                    class="mx-auto grid max-w-7xl grid-cols-2 gap-4 rounded-lg bg-white/5 p-4 text-white shadow-blue md:min-h-[146px] md:grid-cols-5 md:items-center md:rounded-none md:bg-transparent md:p-0 md:px-8 md:shadow-none"
+                >
+                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-3">
+                        <span
+                            class="row-span-2 grid h-12 w-12 place-items-center rounded-full border border-white/30 text-2xl md:h-16 md:w-16"
+                            ><i class="fa fa-plane" aria-hidden="true"></i
+                        ></span
+                        ><strong class="font-inter text-xl md:text-3xl"
+                            >15K+</strong
+                        >
+                        <p class="text-xs font-bold md:text-base">
+                            সন্তুষ্ট গ্রাহক
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-3">
+                        <span
+                            class="row-span-2 grid h-12 w-12 place-items-center rounded-full border border-white/30 text-2xl md:h-16 md:w-16"
+                            ><i class="fa fa-globe" aria-hidden="true"></i
+                        ></span
+                        ><strong class="font-inter text-xl md:text-3xl"
+                            >50+</strong
+                        >
+                        <p class="text-xs font-bold md:text-base">দেশে সেবা</p>
+                    </div>
+                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-3">
+                        <span
+                            class="row-span-2 grid h-12 w-12 place-items-center rounded-full border border-white/30 text-2xl md:h-16 md:w-16"
+                            ><i class="fa fa-file-text-o" aria-hidden="true"></i
+                        ></span
+                        ><strong class="font-inter text-xl md:text-3xl"
+                            >100%</strong
+                        >
+                        <p class="text-xs font-bold md:text-base">
+                            বিশ্বস্ত সেবা
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-[auto_1fr] items-center gap-x-3">
+                        <span
+                            class="row-span-2 grid h-12 w-12 place-items-center rounded-full border border-white/30 text-2xl md:h-16 md:w-16"
+                            ><i class="fa fa-headphones" aria-hidden="true"></i
+                        ></span
+                        ><strong class="font-inter text-xl md:text-3xl"
+                            >24/7</strong
+                        >
+                        <p class="text-xs font-bold md:text-base">
+                            কাস্টমার সাপোর্ট
+                        </p>
+                    </div>
+                    <div
+                        class="col-span-2 rounded-lg border border-white/25 bg-white/10 p-4 text-center md:col-span-1"
+                    >
+                        <p
+                            class="mx-auto max-w-xs text-xl font-extrabold leading-snug md:text-lg"
+                        >
+                            যেকোন প্রয়োজনে এখনই আমাদের সাথে যোগাযোগ করুন
+                        </p>
+                        <a
+                            href="tel:01855588836"
+                            class="mt-3 inline-flex min-h-10 items-center gap-2 rounded-full bg-green-500 px-4 font-inter text-xl font-black"
+                            ><img
+                                src="assets/whatsapp-icon.png"
+                                alt=""
+                                class="h-6 w-6"
+                            />01855588836</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="py-4 md:py-9">
+                <div class="mb-4 text-center">
+                    <h2
+                        class="text-[27px] font-extrabold text-air-900 md:text-5xl"
+                    >
+                        কেন এয়ার ৭১ ট্রাভেলস?
+                    </h2>
+                    <div
+                        class="mx-auto mt-1 w-20 border-t-2 border-blue-200 text-center text-air-600"
+                    >
+                        ✈
+                    </div>
+                </div>
+                <div
+                    class="mx-auto grid max-w-7xl grid-cols-2 gap-2.5 px-5 md:grid-cols-4 md:gap-6 md:px-8"
+                >
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-4 text-center shadow-card md:p-7"
+                    >
+                        <span
+                            class="mx-auto mb-2 grid h-14 w-14 place-items-center rounded-full bg-sky-50 text-3xl text-air-600 md:h-20 md:w-20"
+                            ><i class="fa fa-shield" aria-hidden="true"></i
+                        ></span
+                        >
+                        <h3 class="font-extrabold md:text-2xl">
+                            বিশ্বস্ত সেবা
+                        </h3>
+                        <p
+                            class="mt-1 text-xs leading-5 text-slate-700 md:text-base"
+                        >
+                            দীর্ঘ দিনের অভিজ্ঞতা ও বিশ্বস্ততার সাথে সেবা প্রদান।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-4 text-center shadow-card md:p-7"
+                    >
+                        <span
+                            class="mx-auto mb-2 grid h-14 w-14 place-items-center rounded-full bg-sky-50 text-3xl text-air-600 md:h-20 md:w-20"
+                            ><i class="fa fa-clock-o" aria-hidden="true"></i
+                        ></span
+                        >
+                        <h3 class="font-extrabold md:text-2xl">
+                            দ্রুত প্রসেসিং
+                        </h3>
+                        <p
+                            class="mt-1 text-xs leading-5 text-slate-700 md:text-base"
+                        >
+                            দ্রুত সময়ে সকল কাজ সম্পন্ন করার নিশ্চয়তা।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-4 text-center shadow-card md:p-7"
+                    >
+                        <span
+                            class="mx-auto mb-2 grid h-14 w-14 place-items-center rounded-full bg-sky-50 text-xl font-black text-air-600 md:h-20 md:w-20"
+                            ><i class="fa fa-users text-3xl" aria-hidden="true"></i
+                        ></span
+                        >
+                        <h3 class="font-extrabold md:text-2xl">অভিজ্ঞ টিম</h3>
+                        <p
+                            class="mt-1 text-xs leading-5 text-slate-700 md:text-base"
+                        >
+                            দক্ষ ও অভিজ্ঞ টিম নিয়ে আমরা কাজ করে থাকি।
+                        </p>
+                    </article>
+                    <article
+                        class="rounded-xl border border-slate-200 bg-white p-4 text-center shadow-card md:p-7"
+                    >
+                        <span
+                            class="mx-auto mb-2 grid h-14 w-14 place-items-center rounded-full bg-sky-50 text-3xl text-air-600 md:h-20 md:w-20"
+                            ><i class="fa fa-headphones" aria-hidden="true"></i
+                        ></span
+                        >
+                        <h3 class="font-extrabold md:text-2xl">24/7 সাপোর্ট</h3>
+                        <p
+                            class="mt-1 text-xs leading-5 text-slate-700 md:text-base"
+                        >
+                            আপনার যেকোন প্রয়োজনে আমরা সবসময় পাশে।
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="visa" class="pb-8">
+                <div class="mb-4 text-center">
+                    <h2
+                        class="text-[27px] font-extrabold text-air-900 md:text-5xl"
+                    >
+                        জনপ্রিয় গন্তব্য
+                    </h2>
+                    <div
+                        class="mx-auto mt-1 w-20 border-t-2 border-blue-200 text-center text-air-600"
+                    >
+                        ✈
+                    </div>
+                </div>
+                <div
+                    class="mx-auto grid max-w-7xl grid-cols-2 gap-3 px-5 md:grid-cols-5 md:gap-6 md:px-8"
+                >
+                    <article
+                        class="overflow-hidden rounded-lg border border-slate-200 bg-white text-center shadow-card"
+                    >
+                        <div
+                            class="h-24 overflow-hidden md:h-32"
+                        >
+                            <img
+                                class="h-full w-full object-cover"
+                                src="assets/country/saudi arabia.jpg"
+                                alt="Saudi Arabia"
+                            />
+                        </div>
+                        <h3 class="py-2 font-extrabold md:text-xl">সৌদি আরব</h3>
+                    </article>
+                    <article
+                        class="overflow-hidden rounded-lg border border-slate-200 bg-white text-center shadow-card"
+                    >
+                        <div
+                            class="h-24 overflow-hidden md:h-32"
+                        >
+                            <img
+                                class="h-full w-full object-cover"
+                                src="assets/country/india.jpg"
+                                alt="India"
+                            />
+                        </div>
+                        <h3 class="py-2 font-extrabold md:text-xl">ভারত</h3>
+                    </article>
+                    <article
+                        class="overflow-hidden rounded-lg border border-slate-200 bg-white text-center shadow-card"
+                    >
+                        <div
+                            class="h-24 overflow-hidden md:h-32"
+                        >
+                            <img
+                                class="h-full w-full object-cover"
+                                src="assets/country/qatar.jpg"
+                                alt="Qatar"
+                            />
+                        </div>
+                        <h3 class="py-2 font-extrabold md:text-xl">কাতার</h3>
+                    </article>
+                    <article
+                        class="overflow-hidden rounded-lg border border-slate-200 bg-white text-center shadow-card"
+                    >
+                        <div
+                            class="h-24 overflow-hidden md:h-32"
+                        >
+                            <img
+                                class="h-full w-full object-cover"
+                                src="assets/country/dubai.jpg"
+                                alt="Dubai"
+                            />
+                        </div>
+                        <h3 class="py-2 font-extrabold md:text-xl">দুবাই</h3>
+                    </article>
+                    <article
+                        class="col-span-2 overflow-hidden rounded-lg border border-slate-200 bg-white text-center shadow-card md:col-span-1"
+                    >
+                        <div
+                            class="h-24 overflow-hidden md:h-32"
+                        >
+                            <img
+                                class="h-full w-full object-cover"
+                                src="assets/country/malaysia.jpg"
+                                alt="Malaysia"
+                            />
+                        </div>
+                        <h3 class="py-2 font-extrabold md:text-xl">
+                            মালয়েশিয়া
+                        </h3>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            id="contact"
+            class="bg-gradient-to-br from-air-900 to-air-700 text-white"
+        >
+            <div
+                class="mx-auto grid max-w-7xl grid-cols-1 gap-2 px-5 py-7 text-center md:grid-cols-[1.4fr_1fr_1.2fr_1.35fr] md:gap-10 md:px-8 md:py-10 md:text-left"
+            >
+                <div class="px-4 pb-3 md:px-0">
+                    <img
+                        src="assets/air 71 logo png.png"
+                        alt="Air71 Travels logo"
+                        class="mx-auto mb-3 w-44 rounded bg-white p-2 md:mx-0"
+                    />
+                    <p class="text-sm leading-6 text-blue-50 md:text-base">
+                        আমরা দিয়ে থাকি এয়ার টিকেটিং, ভিসা প্রসেসিং, ট্যুর
+                        প্ল্যান, হোটেল বুকিং সহ সকল ধরনের ট্রাভেল সেবা।
+                    </p>
+                    <div
+                        class="mt-4 flex justify-center gap-4 text-xl md:justify-start"
+                    >
+                        <a href="https://www.facebook.com/air71travels" aria-label="Facebook"
+                            ><i class="fa fa-facebook" aria-hidden="true"></i
+                        ></a>
+                        <a href="https://www.instagram.com/air71travels" aria-label="Instagram"
+                            ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                        <a href="https://wa.me/8801855588836" aria-label="WhatsApp"
+                            ><i class="fa fa-whatsapp" aria-hidden="true"></i
+                        ></a>
+                        <a href="#" aria-label="YouTube"
+                            ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                        ></a>
+                    </div>
+                </div>
+                <div
+                    class="rounded-lg border border-white/20 text-left md:border-0"
+                >
+                    <h3
+                        class="flex items-center justify-between px-4 py-3 font-bold md:block md:p-0 md:text-2xl"
+                    >
+                        দ্রুত লিংক <span class="md:hidden">⌄</span>
+                    </h3>
+                    <div class="hidden md:block">
+                        <a class="block py-1.5" href="#">Home</a
+                        ><a class="block py-1.5" href="#about">About Us</a
+                        ><a class="block py-1.5" href="#services"
+                            >Our Services</a
+                        ><a class="block py-1.5" href="#visa">Visa Processing</a
+                        ><a class="block py-1.5" href="#contact">Contact Us</a>
+                    </div>
+                </div>
+                <div
+                    class="rounded-lg border border-white/20 text-left md:border-0"
+                >
+                    <h3
+                        class="flex items-center justify-between px-4 py-3 font-bold md:block md:p-0 md:text-2xl"
+                    >
+                        আমাদের সেবাসমূহ <span class="md:hidden">⌄</span>
+                    </h3>
+                    <div class="hidden md:block">
+                        <a class="block py-1.5" href="#services">এয়ার টিকেটিং</a
+                        ><a class="block py-1.5" href="#services"
+                            >সৌদি ওয়ার্ক ভিসা</a
+                        ><a class="block py-1.5" href="#services"
+                            >ইন্ডিয়ান ভিসা</a
+                        ><a class="block py-1.5" href="#services"
+                            >ট্যুর প্ল্যান</a
+                        ><a class="block py-1.5" href="#services"
+                            >হোটেল বুকিং</a
+                        >
+                    </div>
+                </div>
+                <div
+                    class="rounded-lg border border-white/20 text-left md:border-0"
+                >
+                    <h3
+                        class="flex items-center justify-between px-4 py-3 font-bold md:block md:p-0 md:text-2xl"
+                    >
+                        যোগাযোগ করুন <span class="md:hidden">⌄</span>
+                    </h3>
+                    <div class="hidden md:block">
+                        <p class="py-1.5">
+                            <i class="fa fa-phone mr-2" aria-hidden="true"></i
+                            >+8801855588836
+                        </p>
+                        <p class="py-1.5">
+                            <i class="fa fa-envelope mr-2" aria-hidden="true"></i
+                            >support@air71.com
+                        </p>
+                        <p class="py-1.5">
+                            <i class="fa fa-globe mr-2" aria-hidden="true"></i
+                            >air71.com
+                        </p>
+                        <p class="py-1.5">
+                            <i class="fa fa-map-marker mr-2" aria-hidden="true"></i
+                            >9 No. Ohab Colony, Bashabo, Sabujbag, Dhaka 1214
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex flex-col items-center justify-center gap-1 px-5 pb-3 text-[10px] text-blue-50 md:flex-row md:justify-around md:bg-slate-100 md:py-3 md:text-slate-800"
+            >
+                <p>© 2024 Air 71 Travels | All Rights Reserved</p>
+                <p>Privacy Policy | Terms & Conditions</p>
+            </div>
+        </footer>
+
+        <a
+            href="https://wa.me/8801855588836"
+            aria-label="WhatsApp"
+            class="fixed bottom-4 right-4 z-20 grid h-14 w-14 place-items-center rounded-full s md:h-16 md:w-16"
+        >
+            <img
+                src="assets/whatsapp-icon.png"
+                alt=""
+                class="h-11 w-11 md:h-12 md:w-12"
+            />
+        </a>
+    </body>
+</html>
