@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ট্রাভেল ইন্সুরেন্স - Air71 Travels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { bangla: ["Hind Siliguri", "sans-serif"], inter: ["Inter", "sans-serif"] },
+          colors: { air: { 50: "#eff7ff", 100: "#dff0ff", 600: "#0d55d9", 700: "#0b3faa", 800: "#082875", 900: "#061a50" } },
+          boxShadow: { card: "0 8px 24px rgba(8, 38, 99, .08)", blue: "0 16px 34px rgba(8, 61, 167, .24)" }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white font-bangla text-air-900">
+  <header class="bg-white shadow-sm">
+    <nav class="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 md:min-h-[96px] md:px-8">
+      <a href="index.html" class="shrink-0"><img src="assets/air 71 logo png.png" alt="Air71 Travels" class="w-36 md:w-56"></a>
+      <div class="hidden items-center gap-10 font-inter text-lg font-extrabold text-air-900 md:flex">
+        <a href="index.html" class="transition hover:text-air-700">Home</a>
+        <a href="index.html#services" class="transition hover:text-air-700">Services</a>
+        <a href="about-us.html" class="transition hover:text-air-700">About Us</a>
+        <a href="contact-us.html" class="transition hover:text-air-700">Contact Us</a>
+      </div>
+      <div class="hidden items-center gap-4 md:flex">
+        <a href="tel:+8801855588836" class="flex min-h-[64px] items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-2 font-inter font-extrabold text-air-900 shadow-sm">
+          <i class="fa fa-phone text-2xl text-air-700"></i>
+          <span><strong class="block text-2xl leading-none">01855588836</strong><small class="mt-1 block text-sm font-semibold text-air-900">24/7 Support</small></span>
+        </a>
+      </div>
+      <div class="flex items-center gap-3 md:hidden">
+        <a href="tel:+8801855588836" class="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-air-800 shadow-sm"><i class="fa fa-phone text-lg"></i></a>
+        <button type="button" data-mobile-menu-button aria-expanded="false" class="grid h-11 w-11 content-center gap-1.5 rounded-lg border border-slate-200 px-2" aria-label="Menu"><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span></button>
+      </div>
+    </nav>
+    <div data-mobile-menu class="hidden border-t border-slate-100 bg-white px-5 pb-5 shadow-sm md:hidden">
+      <div class="mx-auto grid max-w-7xl gap-2 pt-3 font-inter font-extrabold text-air-900">
+        <a href="index.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Home</a>
+        <a href="index.html#services" class="rounded-lg px-3 py-3 hover:bg-air-50">Services</a>
+        <a href="about-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">About Us</a>
+        <a href="contact-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Contact Us</a>
+        <a href="tel:+8801855588836" class="mt-2 flex items-center justify-center gap-2 rounded-lg bg-air-700 px-4 py-3 text-white"><i class="fa fa-phone"></i>01855588836</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden bg-air-900 text-white">
+      <div class="absolute inset-0 bg-[url('assets/Travel_Insurance_Assets/hero_banner.jpg')] bg-cover bg-center"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-air-900 via-air-900/90 to-air-900/35"></div>
+      <div class="relative mx-auto grid max-w-7xl gap-8 px-5 py-10 md:min-h-[430px] md:grid-cols-[.75fr_1fr] md:items-center md:px-8">
+        <div>
+          <div class="mb-4 flex h-20 w-20 items-center justify-center rounded-2xl border border-white/30 text-5xl"><i class="fa fa-shield"></i></div>
+          <h1 class="text-[44px] font-extrabold leading-tight md:text-7xl">ট্রাভেল ইন্সুরেন্স</h1>
+          <p class="mt-4 max-w-2xl text-2xl font-bold leading-9">বিদেশ ভ্রমণের সময় অপ্রত্যাশিত ঝুঁকি থেকে নিরাপদ ও পরিরারকে সুরক্ষিত রাখুন</p>
+          <p class="mt-3 font-inter text-xl font-black text-amber-300">Worldwide Travel Insurance Coverage</p>
+          <div class="mt-7 grid grid-cols-5 gap-3 text-center">
+            <div><span class="mx-auto grid h-14 w-14 place-items-center rounded-lg border border-white/35 text-2xl"><i class="fa fa-suitcase"></i></span><p class="mt-2 text-xs font-bold">Tourist<br>Travel</p></div>
+            <div><span class="mx-auto grid h-14 w-14 place-items-center rounded-lg border border-white/35 text-2xl"><i class="fa fa-briefcase"></i></span><p class="mt-2 text-xs font-bold">Business<br>Travel</p></div>
+            <div><span class="mx-auto grid h-14 w-14 place-items-center rounded-lg border border-white/35 text-2xl"><i class="fa fa-graduation-cap"></i></span><p class="mt-2 text-xs font-bold">Student<br>Travel</p></div>
+            <div><span class="mx-auto grid h-14 w-14 place-items-center rounded-lg border border-white/35 text-2xl"><i class="fa fa-university"></i></span><p class="mt-2 text-xs font-bold">Umrah<br>Travel</p></div>
+            <div><span class="mx-auto grid h-14 w-14 place-items-center rounded-lg border border-white/35 text-2xl"><i class="fa fa-users"></i></span><p class="mt-2 text-xs font-bold">Family<br>Travel</p></div>
+          </div>
+        </div>
+        <div class="relative hidden min-h-[300px] md:block">
+          <img src="assets/Travel_Insurance_Assets/family_insurance.jpg" alt="Family travel insurance" class="absolute right-8 top-4 h-72 w-[520px] rounded-2xl object-cover shadow-blue">
+          <img src="assets/Travel_Insurance_Assets/world_map_passport.jpg" alt="Travel insurance passport" class="absolute bottom-0 right-20 h-36 w-56 rotate-3 rounded-xl object-cover shadow-card">
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 py-8 md:px-8">
+      <h2 class="mb-6 text-center text-3xl font-extrabold text-air-800">আমাদের কভারেজ</h2>
+      <div class="grid grid-cols-2 gap-4 md:grid-cols-8">
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-plus-circle text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Medical Emergency</h3><p class="text-sm">জরুরি চিকিৎসা সেবা</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-times-circle-o text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Trip Cancellation</h3><p class="text-sm">ট্রিপ বাতিল হলে কভারেজ</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-suitcase text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Lost Baggage</h3><p class="text-sm">হারানো লাগেজের কভারেজ</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-plane text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Flight Delay</h3><p class="text-sm">ফ্লাইট দেরি হলে কভারেজ</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-hospital-o text-4xl text-green-600"></i><h3 class="mt-3 font-bold">Hospitalization</h3><p class="text-sm">হাসপাতাল খরচ কভারেজ</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-ambulance text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Emergency Evacuation</h3><p class="text-sm">জরুরি উদ্ধার সহায়তা</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-user-md text-4xl text-air-700"></i><h3 class="mt-3 font-bold">Personal Liability</h3><p class="text-sm">ব্যক্তিগত দায় কভারেজ</p></div>
+        <div class="rounded-xl border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-headphones text-4xl text-air-700"></i><h3 class="mt-3 font-bold">24/7 Assistance</h3><p class="text-sm">২৪/৭ জরুরি সহায়তা</p></div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 pb-8 text-center md:px-8">
+      <h2 class="font-inter text-2xl font-black text-air-800">Available Countries</h2>
+      <h3 class="mt-1 text-3xl font-extrabold text-air-800">🌎 Worldwide Coverage</h3>
+      <p class="mt-2 font-bold">Popular Destinations</p>
+      <div class="mt-5 grid grid-cols-3 gap-3 md:grid-cols-12">
+        <div><img src="assets/Air71_Hotel_Assets/saudi_arabia.jpg" class="h-28 w-full rounded-lg object-cover" alt="Saudi Arabia"><p class="mt-2 font-bold">Saudi Arabia</p></div>
+        <div><img src="assets/country/dubai.jpg" class="h-28 w-full rounded-lg object-cover" alt="UAE"><p class="mt-2 font-bold">UAE</p></div>
+        <div><img src="assets/Air71_Hotel_Assets/malaysia.jpg" class="h-28 w-full rounded-lg object-cover" alt="Malaysia"><p class="mt-2 font-bold">Malaysia</p></div>
+        <div><img src="assets/Air71_Hotel_Assets/thailand.jpg" class="h-28 w-full rounded-lg object-cover" alt="Thailand"><p class="mt-2 font-bold">Thailand</p></div>
+        <div><img src="assets/Air71_Hotel_Assets/singapore.jpg" class="h-28 w-full rounded-lg object-cover" alt="Singapore"><p class="mt-2 font-bold">Singapore</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/turkey.jpg" class="h-28 w-full rounded-lg object-cover" alt="Turkey"><p class="mt-2 font-bold">Turkey</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/uk.jpg" class="h-28 w-full rounded-lg object-cover" alt="UK"><p class="mt-2 font-bold">United Kingdom</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/canada.jpg" class="h-28 w-full rounded-lg object-cover" alt="Canada"><p class="mt-2 font-bold">Canada</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/usa.jpg" class="h-28 w-full rounded-lg object-cover" alt="USA"><p class="mt-2 font-bold">United States</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/australia.jpg" class="h-28 w-full rounded-lg object-cover" alt="Australia"><p class="mt-2 font-bold">Australia</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/europ.jpg" class="h-28 w-full rounded-lg object-cover" alt="Schengen"><p class="mt-2 font-bold">Schengen Countries</p></div>
+        <div><img src="assets/Travel_Insurance_Assets/world_map_passport.jpg" class="h-28 w-full rounded-lg object-cover" alt="Worldwide"><p class="mt-2 font-bold">Worldwide</p></div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 pb-8 md:px-8">
+      <h2 class="mb-5 text-center text-3xl font-extrabold text-air-800">আমাদের ইন্সুরেন্স প্লান</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="flex min-h-[360px] flex-col overflow-hidden rounded-xl border border-slate-200 shadow-card"><h3 class="bg-green-600 p-4 text-center text-2xl font-extrabold text-white"><i class="fa fa-shield mr-2"></i>Basic Plan</h3><div class="flex flex-1 flex-col p-5"><div class="space-y-2"><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Medical Emergency</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Flight Delay</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Baggage Loss</p></div><div class="mt-auto flex items-end justify-between border-t pt-4"><div><small>From</small><p class="font-inter text-2xl font-black text-green-700">BDT 650</p></div><a class="rounded-md bg-green-600 px-4 py-2 font-bold text-white" href="https://wa.me/8801855588836">Plan Select করুন</a></div></div></div>
+        <div class="flex min-h-[360px] flex-col overflow-hidden rounded-xl border border-slate-200 shadow-card"><h3 class="bg-air-700 p-4 text-center text-2xl font-extrabold text-white"><i class="fa fa-shield mr-2"></i>Standard Plan</h3><div class="flex flex-1 flex-col p-5"><div class="space-y-2"><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Medical Coverage</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Trip Cancellation</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Flight Delay</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Lost Baggage</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Emergency Support</p></div><div class="mt-auto flex items-end justify-between border-t pt-4"><div><small>From</small><p class="font-inter text-2xl font-black text-air-700">BDT 1,250</p></div><a class="rounded-md bg-air-700 px-4 py-2 font-bold text-white" href="https://wa.me/8801855588836">Plan Select করুন</a></div></div></div>
+        <div class="flex min-h-[360px] flex-col overflow-hidden rounded-xl border border-slate-200 shadow-card"><h3 class="bg-purple-700 p-4 text-center text-2xl font-extrabold text-white"><i class="fa fa-shield mr-2"></i>Premium Plan</h3><div class="flex flex-1 flex-col p-5"><div class="space-y-2"><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Higher Medical Coverage</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Worldwide Protection</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Emergency Evacuation</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Personal Liability</p><p><i class="fa fa-check-circle mr-2 text-green-600"></i>Full Travel Protection</p></div><div class="mt-auto flex items-end justify-between border-t pt-4"><div><small>From</small><p class="font-inter text-2xl font-black text-purple-700">BDT 2,250</p></div><a class="rounded-md bg-purple-700 px-4 py-2 font-bold text-white" href="https://wa.me/8801855588836">Plan Select করুন</a></div></div></div>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-7xl gap-5 px-5 pb-8 md:grid-cols-[.8fr_1.7fr] md:px-8">
+      <div class="rounded-xl border border-slate-200 p-5 shadow-card">
+        <h2 class="mb-4 text-2xl font-extrabold text-air-800">প্রয়োজনীয় ডকুমেন্টস</h2>
+        <p><i class="fa fa-id-card-o mr-2 text-air-700"></i>Passport Copy</p><p><i class="fa fa-ticket mr-2 text-air-700"></i>Travel Ticket</p><p><i class="fa fa-calendar mr-2 text-air-700"></i>Travel Date</p><p><i class="fa fa-globe mr-2 text-air-700"></i>Destination Country</p><p><i class="fa fa-phone mr-2 text-air-700"></i>Contact Number</p>
+      </div>
+      <div class="rounded-xl border border-slate-200 p-5 shadow-card">
+        <h2 class="mb-6 text-center text-2xl font-extrabold text-air-800">ইন্সুরেন্স প্রসেসিং স্টেপস</h2>
+        <div class="grid grid-cols-5 gap-4 text-center"><div><i class="fa fa-file-text-o text-4xl text-air-700"></i><p class="font-bold">ডকুমেন্ট সাবমিশন</p></div><div><i class="fa fa-search text-4xl text-air-700"></i><p class="font-bold">যাচাই</p></div><div><i class="fa fa-shield text-4xl text-air-700"></i><p class="font-bold">প্লান সিলেকশন</p></div><div><i class="fa fa-credit-card text-4xl text-air-700"></i><p class="font-bold">পেমেন্ট</p></div><div><i class="fa fa-download text-4xl text-air-700"></i><p class="font-bold">ডেলিভারি</p></div></div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 pb-8 md:px-8">
+      <h2 class="mb-5 text-center text-3xl font-extrabold text-air-800">কেন ট্রাভেল ইন্সুরেন্স প্রয়োজন?</h2>
+      <div class="grid gap-5 md:grid-cols-5">
+        <div class="rounded-xl border border-slate-200 shadow-card"><img src="assets/Travel_Insurance_Assets/medical_emergency.jpg" class="h-32 w-full rounded-t-xl object-cover" alt="Medical emergency"><div class="p-4 text-center"><h3 class="font-bold text-air-700">Medical Emergency</h3><p>বিদেশে চিকিৎসা ব্যয় অত্যন্ত ব্যয়বহুল হতে পারে।</p></div></div>
+        <div class="rounded-xl border border-slate-200 shadow-card"><img src="assets/Travel_Insurance_Assets/trip_cancellation.jpg" class="h-32 w-full rounded-t-xl object-cover" alt="Trip cancellation"><div class="p-4 text-center"><h3 class="font-bold text-air-700">Trip Cancellation</h3><p>জরুরি পরিস্থিতিতে ট্রিপ বাতিল হলে আর্থিক সুরক্ষা।</p></div></div>
+        <div class="rounded-xl border border-slate-200 shadow-card"><img src="assets/Travel_Insurance_Assets/lost_baggage.jpg" class="h-32 w-full rounded-t-xl object-cover" alt="Lost baggage"><div class="p-4 text-center"><h3 class="font-bold text-air-700">Lost Baggage</h3><p>হারানো লাগেজের জন্য কভারেজ এবং সহায়তা।</p></div></div>
+        <div class="rounded-xl border border-slate-200 shadow-card"><img src="assets/Travel_Insurance_Assets/flight_delay.jpg" class="h-32 w-full rounded-t-xl object-cover" alt="Flight delay"><div class="p-4 text-center"><h3 class="font-bold text-air-700">Flight Delay</h3><p>ফ্লাইট দেরি হলে অতিরিক্ত খরচ ও ক্ষতিপূরণ।</p></div></div>
+        <div class="rounded-xl border border-slate-200 shadow-card"><img src="assets/Travel_Insurance_Assets/assistance.jpg" class="h-32 w-full rounded-t-xl object-cover" alt="Assistance"><div class="p-4 text-center"><h3 class="font-bold text-air-700">24/7 Assistance</h3><p>যেকোনো সমস্যায় নির্ভরযোগ্য জরুরি সাপোর্ট।</p></div></div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-5 pb-8 md:px-8">
+      <div class="grid gap-4 rounded-xl bg-gradient-to-r from-air-900 to-air-700 p-5 text-white shadow-blue md:grid-cols-5 md:text-center">
+        <div><i class="fa fa-file-text-o text-3xl"></i><h3 class="font-bold">Same Day Policy Issue</h3></div><div><i class="fa fa-download text-3xl"></i><h3 class="font-bold">Instant PDF Delivery</h3></div><div><i class="fa fa-globe text-3xl"></i><h3 class="font-bold">Worldwide Coverage</h3></div><div><i class="fa fa-headphones text-3xl"></i><h3 class="font-bold">24/7 Emergency Assistance</h3></div><div><i class="fa fa-shield text-3xl"></i><h3 class="font-bold">Trusted & Secure Service</h3></div>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-7xl gap-5 px-5 pb-8 md:grid-cols-[.8fr_1.2fr] md:px-8">
+      <div class="rounded-xl border border-slate-200 p-5 shadow-card">
+        <h2 class="mb-4 text-2xl font-extrabold text-air-800">সাধারণ প্রশ্ন (FAQ)</h2>
+        <details class="mb-2 rounded-lg border p-3"><summary class="cursor-pointer font-bold">ট্রাভেল ইন্সুরেন্স কি বাধ্যতামূলক?</summary><p class="mt-2 text-sm">অনেক দেশ ও ভিসা ক্যাটাগরিতে এটি প্রয়োজন হয়।</p></details>
+        <details class="mb-2 rounded-lg border p-3"><summary class="cursor-pointer font-bold">ইন্সুরেন্স কতদিনের জন্য করা যায়?</summary><p class="mt-2 text-sm">ভ্রমণের সময়কাল অনুযায়ী single trip বা long-term coverage নেওয়া যায়।</p></details>
+        <details class="mb-2 rounded-lg border p-3"><summary class="cursor-pointer font-bold">Medical Coverage কত পর্যন্ত পাওয়া যায়?</summary><p class="mt-2 text-sm">প্লান এবং destination অনুযায়ী coverage limit ভিন্ন হয়।</p></details>
+        <details class="rounded-lg border p-3"><summary class="cursor-pointer font-bold">Policy কত দ্রুত পাব?</summary><p class="mt-2 text-sm">ডকুমেন্ট ঠিক থাকলে same day PDF policy delivery দেওয়া যায়।</p></details>
+      </div>
+      <div class="overflow-hidden rounded-xl bg-air-50 shadow-card">
+        <img src="assets/Travel_Insurance_Assets/family_insurance.jpg" alt="Family travel insurance" class="h-44 w-full object-cover">
+        <div class="grid gap-4 p-6 xl:grid-cols-[.9fr_1.4fr] xl:items-center">
+          <div><h2 class="text-3xl font-extrabold text-air-800">আপনার ভ্রমণকে নিরাপদ করুন</h2><p class="mt-2">ভ্রমণের আগে আজই আপনার ট্রাভেল ইন্সুরেন্স নিশ্চিত করুন।</p></div>
+          <div class="grid gap-3 sm:grid-cols-2"><a href="tel:+8801855588836" class="flex min-h-14 min-w-0 items-center justify-center gap-1.5 overflow-hidden rounded-lg bg-white px-2 text-center font-inter text-sm font-black leading-tight text-air-800 xl:text-base"><i class="fa fa-phone flex-none"></i><span class="min-w-0 break-words">01855588836</span></a><a href="https://wa.me/8801855588836" class="flex min-h-14 min-w-0 items-center justify-center gap-1.5 overflow-hidden rounded-lg bg-green-600 px-2 text-center text-sm font-bold leading-tight text-white xl:text-base"><img src="assets/whatsapp-icon.png" class="h-6 w-6 flex-none" alt=""><span class="min-w-0 break-words">WhatsApp করুন</span></a><a href="tel:+8801855588836" class="flex min-h-14 min-w-0 items-center justify-center gap-1.5 overflow-hidden rounded-lg bg-blue-700 px-2 text-center text-sm font-bold leading-tight text-white sm:col-span-2 xl:text-base"><i class="fa fa-comments-o flex-none"></i><span class="min-w-0 break-words">Free Consultation</span></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="bg-gradient-to-br from-air-900 to-air-700 text-white">
+    <div class="mx-auto grid max-w-7xl grid-cols-1 gap-2 px-5 py-7 text-center md:grid-cols-[1.4fr_1fr_1.2fr_1.35fr] md:gap-10 md:px-8 md:py-10 md:text-left">
+      <div class="px-4 pb-3 md:px-0"><img src="assets/air 71 logo png.png" alt="Air71 Travels logo" class="mx-auto mb-2 w-44 rounded p-2 md:mx-0"><p class="text-sm leading-6 text-blue-50 md:text-base">সহজ ভ্রমণ, নিশ্চিত সেবা।</p><div class="mt-4 flex justify-center gap-4 text-xl md:justify-start"><a href="https://www.facebook.com/air71travels" aria-label="Facebook"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/air71travels" aria-label="Instagram"><i class="fa fa-instagram"></i></a><a href="https://wa.me/8801855588836" aria-label="WhatsApp"><i class="fa fa-whatsapp"></i></a><a href="#" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a></div></div>
+      <div class="rounded-lg border border-white/20 text-left md:border-0"><h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">Quick Links <span class="md:hidden">⌄</span></h3><div class="hidden md:block"><a class="block py-1.5" href="index.html">Home</a><a class="block py-1.5" href="about-us.html">About Us</a><a class="block py-1.5" href="index.html#services">Visa Guide</a><a class="block py-1.5" href="contact-us.html">Contact Us</a></div></div>
+      <div class="rounded-lg border border-white/20 text-left md:border-0"><h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">Our Services <span class="md:hidden">⌄</span></h3><div class="hidden md:block"><a class="block py-1.5" href="service-saudi-work-visa.html">Visa Processing</a><a class="block py-1.5" href="service-hotel-booking.html">Hotel Booking</a><a class="block py-1.5" href="service-travel-insurance.html">Travel Insurance</a><a class="block py-1.5" href="service-air-ticket.html">Air Ticket</a></div></div>
+      <div class="rounded-lg border border-white/20 text-left md:border-0"><h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">Contact Us <span class="md:hidden">⌄</span></h3><div class="hidden md:block"><p class="py-1.5"><i class="fa fa-phone mr-2"></i>01855588836</p><p class="py-1.5"><i class="fa fa-envelope mr-2"></i>support@air71.com</p><p class="py-1.5"><i class="fa fa-map-marker mr-2"></i>9 No. Ohab Colony, Bashabo, Sabujbag, Dhaka 1214</p></div></div>
+    </div>
+
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("#contact .rounded-lg.border-white\\/20").forEach(function (group) {
+        const heading = group.querySelector("h3");
+        const panel = group.querySelector("h3 + div");
+        const arrow = heading ? heading.querySelector("span") : null;
+        if (!heading || !panel) return;
+        heading.addEventListener("click", function () {
+          if (window.innerWidth >= 768) return;
+          const isOpen = !panel.classList.contains("hidden");
+          document.querySelectorAll("#contact h3 + div").forEach(function (p) { p.classList.add("hidden"); p.classList.remove("block", "px-4", "pb-3"); });
+          document.querySelectorAll("#contact h3 span").forEach(function (a) { a.textContent = "⌄"; });
+          if (!isOpen) { panel.classList.remove("hidden"); panel.classList.add("block", "px-4", "pb-3"); if (arrow) arrow.textContent = "⌃"; }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("header").forEach(function (header) {
+        const button = header.querySelector("[data-mobile-menu-button]");
+        const menu = header.querySelector("[data-mobile-menu]");
+        if (!button || !menu) return;
+        button.addEventListener("click", function () {
+          const isHidden = menu.classList.toggle("hidden");
+          button.setAttribute("aria-expanded", String(!isHidden));
+        });
+        menu.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            button.setAttribute("aria-expanded", "false");
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

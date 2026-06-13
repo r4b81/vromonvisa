@@ -45,58 +45,36 @@
         </script>
     </head>
     <body class="font-bangla text-air-900 bg-white">
-        <header>
-           
-
-            <nav
-                class="border-b border-white/40 bg-white shadow-sm"
-            >
-                <div
-                    class="absolute inset-x-0 top-10 hidden h-[104px] bg-gradient-to-r from-white/95 via-white/70 to-white/20 md:block"
-                ></div>
-                <div
-                    class="relative mx-auto flex min-h-[82px] max-w-7xl items-center justify-between gap-3 px-5 md:min-h-[104px] md:px-8"
-                >
-                    <a
-                        href="#"
-                        aria-label="Air71 Travels"
-                        class="block shrink-0"
-                    >
-                        <img
-                            src="assets/air 71 logo png.png"
-                            alt="Air71 Travels logo"
-                            class="h-auto w-[142px] object-contain md:w-[178px]"
-                        />
-                    </a>
-
-                    <a
-                        href="https://wa.me/8801855588836"
-                        class="hidden min-h-[52px] items-center gap-3 rounded-md bg-gradient-to-br from-air-700 to-air-900 px-6 font-inter text-xl font-black text-white shadow-blue md:flex"
-                    >
-                        <img
-                            class="h-[25px]"
-                            src="assets/whatsapp-icon.png"
-                            alt=""
-                            srcset=""
-                        />
-                        +8801855588836
-                    </a>
-
-                    <div class="flex items-center gap-3 md:hidden">
-                        <a
-                            href="https://wa.me/8801855588836"
-                            aria-label="Call Air71 Travels"
-                            class="flex min-h-11 items-center gap-2 rounded-md bg-gradient-to-br from-air-700 to-air-900 px-3 font-inter text-sm font-black text-white shadow-blue"
-                            ><img
-                                class="h-6 w-6"
-                                src="assets/whatsapp-icon.png"
-                                alt=""
-                                srcset=""
-                        />+8801855588836</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+  <header class="bg-white shadow-sm">
+    <nav class="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 md:min-h-[96px] md:px-8">
+      <a href="index.html" class="shrink-0"><img src="assets/air 71 logo png.png" alt="Air71 Travels" class="w-36 md:w-56"></a>
+      <div class="hidden items-center gap-10 font-inter text-lg font-extrabold text-air-900 md:flex">
+        <a href="index.html" class="transition hover:text-air-700">Home</a>
+        <a href="index.html#services" class="transition hover:text-air-700">Services</a>
+        <a href="about-us.html" class="transition hover:text-air-700">About Us</a>
+        <a href="contact-us.html" class="transition hover:text-air-700">Contact Us</a>
+      </div>
+      <div class="hidden items-center gap-4 md:flex">
+        <a href="tel:+8801855588836" class="flex min-h-[64px] items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-2 font-inter font-extrabold text-air-900 shadow-sm">
+          <i class="fa fa-phone text-2xl text-air-700"></i>
+          <span><strong class="block text-2xl leading-none">01855588836</strong><small class="mt-1 block text-sm font-semibold text-air-900">24/7 Support</small></span>
+        </a>
+      </div>
+      <div class="flex items-center gap-3 md:hidden">
+        <a href="tel:+8801855588836" class="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-air-800 shadow-sm"><i class="fa fa-phone text-lg"></i></a>
+        <button type="button" data-mobile-menu-button aria-expanded="false" class="grid h-11 w-11 content-center gap-1.5 rounded-lg border border-slate-200 px-2" aria-label="Menu"><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span></button>
+      </div>
+    </nav>
+    <div data-mobile-menu class="hidden border-t border-slate-100 bg-white px-5 pb-5 shadow-sm md:hidden">
+      <div class="mx-auto grid max-w-7xl gap-2 pt-3 font-inter font-extrabold text-air-900">
+        <a href="index.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Home</a>
+        <a href="index.html#services" class="rounded-lg px-3 py-3 hover:bg-air-50">Services</a>
+        <a href="about-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">About Us</a>
+        <a href="contact-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Contact Us</a>
+        <a href="tel:+8801855588836" class="mt-2 flex items-center justify-center gap-2 rounded-lg bg-air-700 px-4 py-3 text-white"><i class="fa fa-phone"></i>01855588836</a>
+      </div>
+    </div>
+  </header>
 
         <main>
             <section
@@ -202,6 +180,8 @@
                     class="mx-auto grid max-w-7xl grid-cols-3 gap-2.5 px-5 md:grid-cols-4 md:gap-4 md:px-8 xl:grid-cols-6"
                 >
                     <article
+                        id="service-air-ticket"
+                        data-service-url="service-air-ticket.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/air ticket.png" alt="Air ticketing"></div>
@@ -217,6 +197,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-saudi-work-visa"
+                        data-service-url="service-saudi-work-visa.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/saudi visa.png" alt="Saudi visa processing"></div>
@@ -232,6 +214,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-indian-visa"
+                        data-service-url="service-indian-visa.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/indian visa (2).png" alt="Indian visa processing"></div>
@@ -247,6 +231,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-takamul"
+                        data-service-url="service-takamul-registration.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/takamul.png" alt="Takamul registration"></div>
@@ -262,6 +248,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-gamca-medical"
+                        data-service-url="service-gamca-medical-slip.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/GAMCA-LOGO-01.png" alt="GAMCA medical slip"></div>
@@ -277,6 +265,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-saudi-ziarat-family-visit"
+                        data-service-url="service-saudi-ziarat-family-visit.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/hajj umrah.jpg" alt="Saudi ziarat and family visit"></div>
@@ -292,6 +282,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-qatar-manpower"
+                        data-service-url="service-qatar-manpower.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/qatar manpower.jpg" alt="Qatar manpower service"></div>
@@ -307,6 +299,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-translation-notary"
+                        data-service-url="service-translation-notary.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/translate icon.png" alt="Translation and notary"></div>
@@ -322,6 +316,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-hotel-booking"
+                        data-service-url="service-hotel-booking.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/hotel icon.png" alt="Hotel booking"></div>
@@ -337,6 +333,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-travel-insurance"
+                        data-service-url="service-travel-insurance.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/heath insurence.png" alt="Travel insurance"></div>
@@ -352,6 +350,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-apostille-attestation"
+                        data-service-url="service-apostille-attestation.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-contain p-1" src="assets/services/aposille icon.png" alt="Apostille document attestation"></div>
@@ -367,6 +367,8 @@
                         </p>
                     </article>
                     <article
+                        id="service-property-e-mutation"
+                        data-service-url="service-property-e-mutation.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/evaluation.jpg" alt="Property e-mutation"></div>
@@ -381,7 +383,9 @@
                             ই-মিউটেশন সেবা।
                         </p>
                     </article>
+                    <a href="service-online-gd.html" class="block">
                     <article
+                        id="service-online-gd"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/gdonline.jpg" alt="Online GD"></div>
@@ -396,7 +400,10 @@
                             সহজে অনলাইন জিডি করুন।
                         </p>
                     </article>
+                    </a>
+                    <a href="service-police-clearance.html" class="block">
                     <article
+                        id="service-police-clearance"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/police clearance.jpg" alt="Police clearance"></div>
@@ -411,7 +418,10 @@
                             পুলিশ ক্লিয়ারেন্স সেবা।
                         </p>
                     </article>
+                    </a>
+                    <a href="service-e-passport.html" class="block">
                     <article
+                        id="service-e-passport"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/passport.jpg" alt="E-passport"></div>
@@ -426,7 +436,10 @@
                             ই-পাসপোর্ট আবেদনের সেবা।
                         </p>
                     </article>
+                    </a>
+                    <a href="service-e-payment.html" class="block">
                     <article
+                        id="service-e-payment"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/epayment copy.jpg" alt="E-payment"></div>
@@ -441,7 +454,10 @@
                             সরকারি ই-পেমেন্ট সেবা।
                         </p>
                     </article>
+                    </a>
+                    <a href="service-tour-plan.html" class="block">
                     <article
+                        id="service-tour-plan"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/tourpackage.jpg" alt="Tour plan"></div>
@@ -456,7 +472,10 @@
                             আপনার ভ্রমণ সহজ আমরা সাথে।
                         </p>
                     </article>
+                    </a>
                     <article
+                        id="service-e-visa"
+                        data-service-url="service-e-visa.html"
                         class="rounded-xl border border-slate-200 bg-white p-1.5 text-center shadow-card md:p-3"
                     >
                         <div class="aspect-[1.1/.82] overflow-hidden rounded-lg bg-slate-50"><img class="h-full w-full object-cover" src="assets/services/evisa.jpg" alt="E-visa processing"></div>
@@ -766,11 +785,11 @@
                     </h3>
                     <div class="hidden md:block">
                         <a class="block py-1.5" href="#">Home</a
-                        ><a class="block py-1.5" href="#about">About Us</a
+                        ><a class="block py-1.5" href="about-us.html">About Us</a
                         ><a class="block py-1.5" href="#services"
                             >Our Services</a
                         ><a class="block py-1.5" href="#visa">Visa Processing</a
-                        ><a class="block py-1.5" href="#contact">Contact Us</a>
+                        ><a class="block py-1.5" href="contact-us.html">Contact Us</a>
                     </div>
                 </div>
                 <div
@@ -783,12 +802,12 @@
                     </h3>
                     <div class="hidden md:block">
                         <a class="block py-1.5" href="#services">এয়ার টিকেটিং</a
-                        ><a class="block py-1.5" href="#services"
+                        ><a class="block py-1.5" href="service-saudi-work-visa.html"
                             >সৌদি ওয়ার্ক ভিসা</a
-                        ><a class="block py-1.5" href="#services"
+                        ><a class="block py-1.5" href="service-indian-visa.html"
                             >ইন্ডিয়ান ভিসা</a
-                        ><a class="block py-1.5" href="#services"
-                            >ট্যুর প্ল্যান</a
+                        ><a class="block py-1.5" href="service-saudi-ziarat-family-visit.html"
+                            >সৌদি জিয়ারত</a
                         ><a class="block py-1.5" href="#services"
                             >হোটেল বুকিং</a
                         >
@@ -825,7 +844,7 @@
             <div
                 class="flex flex-col items-center justify-center gap-1 px-5 pb-3 text-[10px] text-blue-50 md:flex-row md:justify-around md:bg-slate-100 md:py-3 md:text-slate-800"
             >
-                <p>© 2024 Air 71 Travels | All Rights Reserved</p>
+
                 <p>Privacy Policy | Terms & Conditions</p>
             </div>
         </footer>
@@ -843,6 +862,24 @@
         </a>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll("#services article").forEach(function (card) {
+                    const serviceUrl = card.getAttribute("data-service-url");
+
+                    if (!serviceUrl) return;
+
+                    card.classList.add("cursor-pointer");
+                    card.setAttribute("tabindex", "0");
+                    card.addEventListener("click", function () {
+                        window.location.href = serviceUrl;
+                    });
+                    card.addEventListener("keydown", function (event) {
+                        if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            window.location.href = serviceUrl;
+                        }
+                    });
+                });
+
                 const footerGroups = document.querySelectorAll(
                     "#contact .rounded-lg.border-white\\/20"
                 );
@@ -897,5 +934,25 @@
                 });
             });
         </script>
-    </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("header").forEach(function (header) {
+        const button = header.querySelector("[data-mobile-menu-button]");
+        const menu = header.querySelector("[data-mobile-menu]");
+        if (!button || !menu) return;
+        button.addEventListener("click", function () {
+          const isHidden = menu.classList.toggle("hidden");
+          button.setAttribute("aria-expanded", String(!isHidden));
+        });
+        menu.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            button.setAttribute("aria-expanded", "false");
+          });
+        });
+      });
+    });
+  </script>
+</body>
 </html>

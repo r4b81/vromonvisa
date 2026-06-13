@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>এয়ার টিকেটিং - Air71 Travels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { bangla: ["Hind Siliguri", "sans-serif"], inter: ["Inter", "sans-serif"] },
+          colors: { air: { 50: "#eff7ff", 100: "#dff0ff", 600: "#0d55d9", 700: "#0b3faa", 800: "#082875", 900: "#061a50" } },
+          boxShadow: { card: "0 8px 24px rgba(8, 38, 99, .08)", blue: "0 16px 34px rgba(8, 61, 167, .24)" }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white font-bangla text-air-900">
+  <header class="bg-white shadow-sm">
+    <nav class="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 md:min-h-[96px] md:px-8">
+      <a href="index.html" class="shrink-0"><img src="assets/air 71 logo png.png" alt="Air71 Travels" class="w-36 md:w-56"></a>
+      <div class="hidden items-center gap-10 font-inter text-lg font-extrabold text-air-900 md:flex">
+        <a href="index.html" class="transition hover:text-air-700">Home</a>
+        <a href="index.html#services" class="transition hover:text-air-700">Services</a>
+        <a href="about-us.html" class="transition hover:text-air-700">About Us</a>
+        <a href="contact-us.html" class="transition hover:text-air-700">Contact Us</a>
+      </div>
+      <div class="hidden items-center gap-4 md:flex">
+        <a href="tel:+8801855588836" class="flex min-h-[64px] items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-2 font-inter font-extrabold text-air-900 shadow-sm">
+          <i class="fa fa-phone text-2xl text-air-700"></i>
+          <span><strong class="block text-2xl leading-none">01855588836</strong><small class="mt-1 block text-sm font-semibold text-air-900">24/7 Support</small></span>
+        </a>
+      </div>
+      <div class="flex items-center gap-3 md:hidden">
+        <a href="tel:+8801855588836" class="grid h-11 w-11 place-items-center rounded-lg border border-slate-200 text-air-800 shadow-sm"><i class="fa fa-phone text-lg"></i></a>
+        <button type="button" data-mobile-menu-button aria-expanded="false" class="grid h-11 w-11 content-center gap-1.5 rounded-lg border border-slate-200 px-2" aria-label="Menu"><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span><span class="h-1 rounded-full bg-air-800"></span></button>
+      </div>
+    </nav>
+    <div data-mobile-menu class="hidden border-t border-slate-100 bg-white px-5 pb-5 shadow-sm md:hidden">
+      <div class="mx-auto grid max-w-7xl gap-2 pt-3 font-inter font-extrabold text-air-900">
+        <a href="index.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Home</a>
+        <a href="index.html#services" class="rounded-lg px-3 py-3 hover:bg-air-50">Services</a>
+        <a href="about-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">About Us</a>
+        <a href="contact-us.html" class="rounded-lg px-3 py-3 hover:bg-air-50">Contact Us</a>
+        <a href="tel:+8801855588836" class="mt-2 flex items-center justify-center gap-2 rounded-lg bg-air-700 px-4 py-3 text-white"><i class="fa fa-phone"></i>01855588836</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden bg-[url('assets/sky.jpg')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-gradient-to-r from-air-900/95 via-air-800/75 to-white/5"></div>
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-5 py-10 text-white md:min-h-[455px] md:grid-cols-[.9fr_1.1fr] md:items-center md:px-8">
+        <div class="relative z-10">
+          <h1 class="text-[46px] font-extrabold leading-tight md:text-7xl">এয়ার টিকেটিং</h1>
+          <p class="mt-3 max-w-md text-2xl font-semibold leading-snug md:text-4xl">দেশ ও বিদেশের সকল এয়ার টিকেট বুকিং সেবা</p>
+          <div class="mt-8 grid grid-cols-3 gap-4 text-center md:max-w-xl">
+            <div><span class="mx-auto grid h-12 w-12 place-items-center rounded-lg bg-white/15 text-2xl"><i class="fa fa-tags"></i></span><h3 class="mt-2 font-bold">সাশ্রয়ী মূল্য</h3><p class="text-sm">Best Fare Guarantee</p></div>
+            <div><span class="mx-auto grid h-12 w-12 place-items-center rounded-lg bg-white/15 text-2xl"><i class="fa fa-bolt"></i></span><h3 class="mt-2 font-bold">দ্রুত কনফার্মেশন</h3><p class="text-sm">Instant Confirmation</p></div>
+            <div><span class="mx-auto grid h-12 w-12 place-items-center rounded-lg bg-white/15 text-2xl"><i class="fa fa-headphones"></i></span><h3 class="mt-2 font-bold">২৪/৭ সাপোর্ট</h3><p class="text-sm">24/7 Customer Support</p></div>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="#routes" class="inline-flex min-h-12 items-center gap-3 rounded-md bg-white px-8 font-bold text-air-800 shadow-card"><i class="fa fa-external-link"></i> ফ্লাইট খুঁজুন</a>
+            <a href="https://wa.me/8801855588836" class="inline-flex min-h-12 items-center gap-3 rounded-md border border-white/70 px-8 font-inter font-bold text-white"><i class="fa fa-whatsapp"></i> 01855588836</a>
+          </div>
+        </div>
+        <div class="relative z-10 h-60 md:h-full">
+          <div class="absolute inset-0 rounded-3xl bg-white/5"></div>
+          <img src="assets/air71 plain.png" alt="Airplane" class="absolute left-1/2 top-14 w-[380px] max-w-none -translate-x-1/2 drop-shadow-2xl sm:w-[440px] md:left-auto md:right-[-70px] md:top-12 md:w-[760px] md:translate-x-0">
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto grid max-w-7xl gap-8 px-5 py-7 md:grid-cols-[1.05fr_.95fr] md:px-8">
+      <div class="space-y-8">
+        <section>
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">আমাদের সেবা সমূহ</h2>
+          <div class="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-plane text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">Domestic<br>Flight Ticket</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-globe text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">International<br>Flight Ticket</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-long-arrow-right text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">One Way<br>Ticket</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-retweet text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">Round Trip<br>Ticket</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-users text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">Group<br>Booking</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-graduation-cap text-3xl text-air-700"></i><p class="mt-2 text-sm font-semibold">Student<br>Fare</p></div>
+            <div class="rounded-lg border border-slate-200 p-4 text-center shadow-card"><i class="fa fa-university text-3xl text-air-900"></i><p class="mt-2 text-sm font-semibold">Umrah<br>Air Ticket</p></div>
+          </div>
+        </section>
+
+        <section id="routes">
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">জনপ্রিয় রুটসমূহ</h2>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Jeddah</div>
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Kuala Lumpur</div>
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Riyadh</div>
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Bangkok</div>
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Dubai</div>
+            <div class="rounded-lg border border-slate-200 px-5 py-3 font-bold shadow-card"><i class="fa fa-plane mr-2 text-air-700"></i> Dhaka <i class="fa fa-long-arrow-right mx-2"></i> Kolkata</div>
+          </div>
+          <div class="mt-5 rounded-xl border border-blue-100 bg-air-50 p-4 shadow-card md:p-5">
+            <div class="relative h-44 overflow-hidden rounded-lg bg-air-50 md:h-56">
+              <img src="assets/world-map-png.png" alt="World route map" class="absolute inset-0 h-full w-full object-contain opacity-80">
+              <img src="assets/air71 plain.png" alt="" class="absolute right-4 top-3 w-44 opacity-90 md:right-10 md:top-5 md:w-64">
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">কেন Air 71 Travels?</h2>
+          <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div class="rounded-xl border border-slate-200 p-5 text-center shadow-card"><i class="fa fa-shield text-5xl text-air-700"></i><h3 class="mt-3 font-bold">Best Fare Guarantee</h3><p>সেরা দামে টিকেট নিশ্চিত</p></div>
+            <div class="rounded-xl border border-slate-200 p-5 text-center shadow-card"><i class="fa fa-ticket text-5xl text-air-700"></i><h3 class="mt-3 font-bold">Instant Confirmation</h3><p>দ্রুত টিকেট কনফার্মেশন</p></div>
+            <div class="rounded-xl border border-slate-200 p-5 text-center shadow-card"><i class="fa fa-headphones text-5xl text-air-700"></i><h3 class="mt-3 font-bold">24/7 Support</h3><p>সেরা ২৪/৭ গ্রাহক সহায়তা</p></div>
+            <div class="rounded-xl border border-slate-200 p-5 text-center shadow-card"><i class="fa fa-check-square-o text-5xl text-air-700"></i><h3 class="mt-3 font-bold">Trusted Travel Partner</h3><p>বিশ্বস্ত ও অভিজ্ঞ টিম</p></div>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 p-6 shadow-card">
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">টিকেট বুকিংয়ের আগে জেনে নিন</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="rounded-lg bg-air-50 p-4"><i class="fa fa-calendar-check-o mb-2 text-3xl text-air-700"></i><h3 class="font-bold">সঠিক ভ্রমণ তারিখ</h3><p class="text-sm leading-6">যাত্রা ও রিটার্ন তারিখ আগে ঠিক করলে কম দামে ভালো ফ্লাইট পাওয়া সহজ হয়।</p></div>
+            <div class="rounded-lg bg-air-50 p-4"><i class="fa fa-id-card-o mb-2 text-3xl text-air-700"></i><h3 class="font-bold">নামের বানান মিল</h3><p class="text-sm leading-6">পাসপোর্ট/NID অনুযায়ী যাত্রীর নাম, জন্মতারিখ ও তথ্য নিশ্চিত করুন।</p></div>
+            <div class="rounded-lg bg-air-50 p-4"><i class="fa fa-suitcase mb-2 text-3xl text-air-700"></i><h3 class="font-bold">ব্যাগেজ নিয়ম</h3><p class="text-sm leading-6">এয়ারলাইন্সভেদে check-in ও cabin baggage limit আলাদা হতে পারে।</p></div>
+            <div class="rounded-lg bg-air-50 p-4"><i class="fa fa-clock-o mb-2 text-3xl text-air-700"></i><h3 class="font-bold">সময়মতো রিপোর্টিং</h3><p class="text-sm leading-6">Domestic flight-এ ২ ঘণ্টা এবং international flight-এ ৩ ঘণ্টা আগে airport-এ পৌঁছানো ভালো।</p></div>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 p-6 shadow-card">
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">ফ্লাইট টাইপ অনুযায়ী সাপোর্ট</h2>
+          <div class="grid gap-3 md:grid-cols-2">
+            <div class="flex items-start gap-3 rounded-lg border border-slate-100 p-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-air-700 text-white"><i class="fa fa-plane"></i></span><div><h3 class="font-bold">Domestic Flight</h3><p class="text-sm leading-6">ঢাকা, চট্টগ্রাম, কক্সবাজার, সিলেটসহ দেশের সব রুটে টিকেট বুকিং।</p></div></div>
+            <div class="flex items-start gap-3 rounded-lg border border-slate-100 p-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-air-700 text-white"><i class="fa fa-globe"></i></span><div><h3 class="font-bold">International Flight</h3><p class="text-sm leading-6">সৌদি, কাতার, দুবাই, মালয়েশিয়া, ভারতসহ জনপ্রিয় রুটে সাপোর্ট।</p></div></div>
+            <div class="flex items-start gap-3 rounded-lg border border-slate-100 p-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-air-700 text-white"><i class="fa fa-exchange"></i></span><div><h3 class="font-bold">Round Trip</h3><p class="text-sm leading-6">যাওয়া-আসার তারিখ অনুযায়ী best fare compare করে বুকিং।</p></div></div>
+            <div class="flex items-start gap-3 rounded-lg border border-slate-100 p-4"><span class="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-air-700 text-white"><i class="fa fa-users"></i></span><div><h3 class="font-bold">Group Booking</h3><p class="text-sm leading-6">পরিবার, অফিস টিম বা গ্রুপ ট্রিপের জন্য একসাথে টিকেট ব্যবস্থা।</p></div></div>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="space-y-7">
+        <section>
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">প্রয়োজনীয় তথ্য</h2>
+          <div class="grid grid-cols-4 rounded-xl border border-slate-200 text-center shadow-card">
+            <div class="p-4"><i class="fa fa-id-card-o text-3xl text-air-700"></i><p class="mt-2 text-sm font-bold">Passport<br>Copy</p></div>
+            <div class="border-l p-4"><i class="fa fa-calendar text-3xl text-air-700"></i><p class="mt-2 text-sm font-bold">Travel<br>Date</p></div>
+            <div class="border-l p-4"><i class="fa fa-sitemap text-3xl text-air-700"></i><p class="mt-2 text-sm font-bold">Route</p></div>
+            <div class="border-l p-4"><i class="fa fa-phone text-3xl text-air-700"></i><p class="mt-2 text-sm font-bold">Contact<br>Number</p></div>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 p-5 shadow-card">
+          <h2 class="mb-5 text-2xl font-extrabold text-air-800">টিকেট বুকিং প্রসেস</h2>
+          <div class="grid grid-cols-4 gap-3 text-center">
+            <div><span class="mx-auto grid h-9 w-9 place-items-center rounded-full bg-air-600 font-inter font-bold text-white">01</span><i class="fa fa-pencil-square-o mt-5 text-3xl text-air-700"></i><h3 class="mt-2 font-bold">ফ্লাইট খুঁজুন</h3><p class="text-sm">আপনার গন্তব্য ও তারিখ দিন</p></div>
+            <div><span class="mx-auto grid h-9 w-9 place-items-center rounded-full bg-air-600 font-inter font-bold text-white">02</span><i class="fa fa-comments-o mt-5 text-3xl text-air-700"></i><h3 class="mt-2 font-bold">পরামর্শ নিন</h3><p class="text-sm">সেরা ফ্লাইট ও মূল্য নির্বাচন</p></div>
+            <div><span class="mx-auto grid h-9 w-9 place-items-center rounded-full bg-air-600 font-inter font-bold text-white">03</span><i class="fa fa-share-alt mt-5 text-3xl text-air-700"></i><h3 class="mt-2 font-bold">তথ্য দিন</h3><p class="text-sm">বুকিং তথ্য নিশ্চিত করুন</p></div>
+            <div><span class="mx-auto grid h-9 w-9 place-items-center rounded-full bg-air-600 font-inter font-bold text-white">04</span><i class="fa fa-suitcase mt-5 text-3xl text-air-700"></i><h3 class="mt-2 font-bold">টিকেট পান</h3><p class="text-sm">ইমেইল/হোয়াটসঅ্যাপে টিকেট</p></div>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-slate-200 p-5 shadow-card">
+          <h2 class="mb-3 text-2xl font-extrabold text-air-800">প্রয়োজনীয় ডকুমেন্টস</h2>
+          <div class="grid gap-4 md:grid-cols-[1fr_auto] md:items-center">
+            <ul class="space-y-3">
+              <li><i class="fa fa-check-square-o mr-2 text-air-700"></i>Passport (যদি থাকে)</li>
+              <li><i class="fa fa-check-square-o mr-2 text-air-700"></i>NID / Birth Certificate (যদি প্রয়োজন হয়)</li>
+              <li><i class="fa fa-check-square-o mr-2 text-air-700"></i>Contact Number</li>
+              <li><i class="fa fa-check-square-o mr-2 text-air-700"></i>Payment Confirmation</li>
+            </ul>
+            <div class="grid h-36 w-56 place-items-center rounded-xl bg-air-50 text-air-700"><i class="fa fa-id-card-o text-6xl"></i><span class="sr-only">Passport placeholder</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="mb-4 text-2xl font-extrabold text-air-800">সাধারণ জিজ্ঞাসা (FAQ)</h2>
+          <div class="divide-y rounded-xl border border-slate-200 shadow-card">
+            <details class="group p-4"><summary class="flex cursor-pointer justify-between font-medium">এয়ার টিকেট বুকিং করতে কি কি তথ্য লাগবে? <i class="fa fa-angle-down"></i></summary><p class="mt-2 text-slate-600">রুট, যাত্রার তারিখ, যাত্রীর নাম ও যোগাযোগ নম্বর লাগবে।</p></details>
+            <details class="group p-4"><summary class="flex cursor-pointer justify-between font-medium">টিকেট কনফার্ম হতে কত সময় লাগে? <i class="fa fa-angle-down"></i></summary><p class="mt-2 text-slate-600">সাধারণত খুব দ্রুত কনফার্মেশন দেওয়া হয়।</p></details>
+            <details class="group p-4"><summary class="flex cursor-pointer justify-between font-medium">টিকেট বাতিল বা পরিবর্তন করা যায় কি? <i class="fa fa-angle-down"></i></summary><p class="mt-2 text-slate-600">এয়ারলাইন্স নীতিমালা অনুযায়ী পরিবর্তন/বাতিল করা যায়।</p></details>
+            <details class="group p-4"><summary class="flex cursor-pointer justify-between font-medium">পেমেন্ট করার উপায় কি কি? <i class="fa fa-angle-down"></i></summary><p class="mt-2 text-slate-600">মোবাইল ব্যাংকিং, ব্যাংক ট্রান্সফার বা ক্যাশ পেমেন্ট।</p></details>
+          </div>
+        </section>
+
+        <section class="rounded-xl bg-gradient-to-br from-air-900 to-air-700 p-6 text-center text-white shadow-blue">
+          <h2 class="text-2xl font-extrabold">টিকেট বুকিং বা যেকোনো তথ্যের জন্য এখনই যোগাযোগ করুন</h2>
+          <div class="mt-5 rounded-lg bg-white p-4 text-air-900">
+            <p class="font-inter text-2xl font-black"><i class="fa fa-phone mr-2 text-air-700"></i>01855588836</p>
+            <p class="text-sm">24/7 Support</p>
+            <a href="https://wa.me/8801855588836" class="mt-4 flex min-h-11 items-center justify-center gap-2 rounded-md bg-green-600 font-bold text-white"><img src="assets/whatsapp-icon.png" alt="" class="h-6 w-6"> WhatsApp করুন</a>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-blue-100 bg-air-50 p-6 shadow-card">
+          <div class="grid gap-4 md:grid-cols-[auto_1fr]">
+            <i class="fa fa-user-circle-o text-6xl text-air-700"></i>
+            <div><h2 class="text-2xl font-extrabold text-air-800">ফ্রি কনসালটেশন</h2><p class="mt-2">আপনার যেকোনো ট্রাভেল পরিকল্পনার জন্য আমাদের এক্সপার্টদের সাথে কথা বলুন।</p><a href="https://wa.me/8801855588836" class="mt-4 inline-flex rounded-md border border-air-700 px-5 py-2 font-bold text-air-800"><i class="fa fa-external-link mr-2"></i>ফ্রি কথা বলুন</a></div>
+          </div>
+        </section>
+
+        <section class="rounded-xl border border-amber-100 bg-amber-50 p-6 shadow-card">
+          <h2 class="mb-4 text-2xl font-extrabold text-amber-700">টিকেট পরিবর্তন ও বাতিল নোট</h2>
+          <ul class="space-y-3 leading-7">
+            <li><i class="fa fa-check-circle mr-2 text-green-600"></i>Refund ও date change airline policy অনুযায়ী হবে।</li>
+            <li><i class="fa fa-check-circle mr-2 text-green-600"></i>No-show হলে অনেক ticket non-refundable হতে পারে।</li>
+            <li><i class="fa fa-check-circle mr-2 text-green-600"></i>কম দামের ticket-এ baggage বা change সুবিধা সীমিত হতে পারে।</li>
+            <li><i class="fa fa-check-circle mr-2 text-green-600"></i>Ticket issue হওয়ার আগে passenger information আবার মিলিয়ে নিন।</li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer id="contact" class="bg-gradient-to-br from-air-900 to-air-700 text-white">
+    <div class="mx-auto grid max-w-7xl grid-cols-1 gap-2 px-5 py-7 text-center md:grid-cols-[1.4fr_1fr_1.2fr_1.35fr] md:gap-10 md:px-8 md:py-10 md:text-left">
+      <div class="px-4 pb-3 md:px-0">
+        <img src="assets/air 71 logo png.png" alt="Air71 Travels logo" class="mx-auto mb-2 w-44 rounded p-2 md:mx-0">
+        <p class="text-sm leading-6 text-blue-50 md:text-base">আমরা দিয়ে থাকি এয়ার টিকেটিং, ভিসা প্রসেসিং, ট্যুর প্ল্যান, হোটেল বুকিং সহ সকল ধরনের ট্রাভেল সেবা।</p>
+        <div class="mt-4 flex justify-center gap-4 text-xl md:justify-start">
+          <a href="https://www.facebook.com/air71travels" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/air71travels" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://wa.me/8801855588836" aria-label="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="rounded-lg border border-white/20 text-left md:border-0">
+        <h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">দ্রুত লিংক <span class="md:hidden">⌄</span></h3>
+        <div class="hidden md:block">
+          <a class="block py-1.5" href="index.html">Home</a>
+          <a class="block py-1.5" href="about-us.html">About Us</a>
+          <a class="block py-1.5" href="index.html#services">Our Services</a>
+          <a class="block py-1.5" href="index.html#visa">Visa Processing</a>
+          <a class="block py-1.5" href="contact-us.html">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="rounded-lg border border-white/20 text-left md:border-0">
+        <h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">আমাদের সেবাসমূহ <span class="md:hidden">⌄</span></h3>
+        <div class="hidden md:block">
+          <a class="block py-1.5" href="index.html#services">এয়ার টিকেটিং</a>
+          <a class="block py-1.5" href="index.html#services">সৌদি ওয়ার্ক ভিসা</a>
+          <a class="block py-1.5" href="index.html#services">ইন্ডিয়ান ভিসা</a>
+          <a class="block py-1.5" href="index.html#services">ট্যুর প্ল্যান</a>
+          <a class="block py-1.5" href="index.html#services">হোটেল বুকিং</a>
+        </div>
+      </div>
+
+      <div class="rounded-lg border border-white/20 text-left md:border-0">
+        <h3 class="flex cursor-pointer select-none items-center justify-between px-4 py-3 font-bold md:block md:cursor-default md:p-0 md:text-2xl">যোগাযোগ করুন <span class="md:hidden">⌄</span></h3>
+        <div class="hidden md:block">
+          <p class="py-1.5"><i class="fa fa-phone mr-2" aria-hidden="true"></i>+8801855588836</p>
+          <p class="py-1.5"><i class="fa fa-envelope mr-2" aria-hidden="true"></i>support@air71.com</p>
+          <p class="py-1.5"><i class="fa fa-globe mr-2" aria-hidden="true"></i>air71.com</p>
+          <p class="py-1.5"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>9 No. Ohab Colony, Bashabo, Sabujbag, Dhaka 1214</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-center gap-1 px-5 pb-3 text-[10px] text-blue-50 md:flex-row md:justify-around md:bg-slate-100 md:py-3 md:text-slate-800">
+
+      <p>Privacy Policy | Terms & Conditions</p>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const footerGroups = document.querySelectorAll("#contact .rounded-lg.border-white\\/20");
+
+      footerGroups.forEach(function (group) {
+        const heading = group.querySelector("h3");
+        const panel = group.querySelector("h3 + div");
+        const arrow = heading ? heading.querySelector("span") : null;
+
+        if (!heading || !panel) return;
+
+        heading.addEventListener("click", function () {
+          if (window.innerWidth >= 768) return;
+          const isOpen = !panel.classList.contains("hidden");
+
+          footerGroups.forEach(function (otherGroup) {
+            const otherPanel = otherGroup.querySelector("h3 + div");
+            const otherArrow = otherGroup.querySelector("h3 span");
+            if (otherPanel) {
+              otherPanel.classList.add("hidden");
+              otherPanel.classList.remove("block", "px-4", "pb-3");
+            }
+            if (otherArrow) otherArrow.textContent = "⌄";
+          });
+
+          if (!isOpen) {
+            panel.classList.remove("hidden");
+            panel.classList.add("block", "px-4", "pb-3");
+            if (arrow) arrow.textContent = "⌃";
+          }
+        });
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("header").forEach(function (header) {
+        const button = header.querySelector("[data-mobile-menu-button]");
+        const menu = header.querySelector("[data-mobile-menu]");
+        if (!button || !menu) return;
+        button.addEventListener("click", function () {
+          const isHidden = menu.classList.toggle("hidden");
+          button.setAttribute("aria-expanded", String(!isHidden));
+        });
+        menu.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            button.setAttribute("aria-expanded", "false");
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
