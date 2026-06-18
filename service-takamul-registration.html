@@ -21,11 +21,37 @@
       }
     }
   </script>
+  <style data-vromon-smooth-transitions>
+    html { scroll-behavior: smooth; }
+    a, button, summary, [data-service-url], article, .shadow-card, img {
+      transition-property: color, background-color, border-color, box-shadow, transform, opacity, filter;
+      transition-duration: 220ms;
+      transition-timing-function: ease;
+    }
+    a:hover, button:hover, [data-service-url]:hover {
+      transform: translateY(-1px);
+    }
+    .shadow-card:hover {
+      box-shadow: 0 14px 32px rgba(8, 38, 99, .12);
+    }
+    img:hover {
+      filter: saturate(1.03);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      a, button, summary, [data-service-url], article, .shadow-card, img {
+        transition-duration: 0ms;
+      }
+      a:hover, button:hover, [data-service-url]:hover {
+        transform: none;
+      }
+    }
+  </style>
 </head>
 <body class="bg-white font-bangla text-air-900">
   <header class="bg-white shadow-sm">
     <nav class="mx-auto flex min-h-[82px] max-w-7xl items-center justify-between px-5 md:min-h-[96px] md:px-8">
-      <a href="index.html" class="shrink-0"><img src="assets/vromon visa logo.png" alt="Vromon Visa" class="w-36 md:w-56"></a>
+      <a href="index.html" class="shrink-0"><img src="assets/vromon visa logo.png" alt="Vromon Visa" class="w-44 md:w-56"></a>
       <div class="hidden items-center gap-10 font-inter text-lg font-extrabold text-air-900 md:flex">
         <a href="index.html" class="transition hover:text-air-700">Home</a>
         <a href="index.html#services" class="transition hover:text-air-700">Services</a>
@@ -161,7 +187,7 @@
         <img src="assets/vromon visa logo.png" alt="Vromon Visa logo" class="mx-auto mb-3 w-44 rounded-lg bg-white p-3 ring-1 ring-white/70 shadow-card md:mx-0">
         <p class="text-sm leading-6 text-blue-50 md:text-base">আমরা দিয়ে থাকি এয়ার টিকেটিং, ভিসা প্রসেসিং, ট্যুর প্ল্যান, হোটেল বুকিং সহ সকল ধরনের ট্রাভেল সেবা।</p>
         <div class="mt-4 flex justify-center gap-4 text-xl md:justify-start">
-          <a href="https://www.facebook.com/vromonvisatravels" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/VromonVisaOfficial" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="https://www.instagram.com/vromonvisatravels" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           <a href="https://wa.me/8801855588836" aria-label="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
           <a href="#" aria-label="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
